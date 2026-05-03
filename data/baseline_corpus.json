@@ -1,0 +1,452 @@
+[
+  {
+    "id": "baseline_001",
+    "text": "RAM stores temporary data for active processes and is cleared on shutdown.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "technical_explanation",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_002",
+    "text": "The retry loop sends another request after a transient failure or timeout.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "systems",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_003",
+    "text": "A memory leak increases heap usage when allocated objects remain reachable.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "debugging",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_004",
+    "text": "The scheduler places missed jobs back into the queue for later execution.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "infra",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_005",
+    "text": "The garbage collector frees memory occupied by objects no longer referenced.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "memory_management",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_006",
+    "text": "A race condition occurs when two threads access shared state without synchronization.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "concurrency",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_007",
+    "text": "Deadlocks happen when two processes each hold a lock the other needs.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "concurrency",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_008",
+    "text": "Cache misses trigger a slower read from main memory or disk storage.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "performance",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_009",
+    "text": "The event loop processes callbacks sequentially from the microtask queue.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "async_programming",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_010",
+    "text": "A stack overflow occurs when recursive calls exceed the available stack space.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "debugging",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_011",
+    "text": "Database indexes speed up queries by maintaining sorted references to rows.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_012",
+    "text": "Load balancers distribute incoming requests across multiple backend servers.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_013",
+    "text": "Buffer overflows write data past allocated memory boundaries.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "security",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_014",
+    "text": "A mutex ensures mutual exclusion so only one thread accesses a resource.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "concurrency",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_015",
+    "text": "Microservices decompose an application into independently deployable components.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "architecture",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_016",
+    "text": "The TCP three-way handshake establishes a reliable connection between hosts.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_017",
+    "text": "Continuous integration pipelines run automated tests on each code commit.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "devops",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_018",
+    "text": "Hash tables store key-value pairs with O(1) average lookup time.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "data_structures",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_019",
+    "text": "Recursion solves problems by breaking them into smaller subproblems of the same type.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "algorithms",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_020",
+    "text": "The kernel scheduler uses time slicing to share CPU among runnable processes.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "operating_systems",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_021",
+    "text": "Dangling pointers reference memory that has already been freed.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "memory_management",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_022",
+    "text": "Compiler optimizations rearrange instructions to improve execution speed.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "compilers",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_023",
+    "text": "Thread pools maintain a fixed set of worker threads for processing tasks.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "concurrency",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_024",
+    "text": "Firewalls filter network traffic based on configurable security rules.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "security",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_025",
+    "text": "DNS resolvers translate domain names into IP addresses for network routing.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_026",
+    "text": "Message queues decouple producers and consumers in distributed systems.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "architecture",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_027",
+    "text": "Docker containers provide lightweight process isolation using OS-level virtualization.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "devops",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_028",
+    "text": "Cursor-based pagination returns results starting from a saved position marker.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_029",
+    "text": "Zombie processes are terminated children whose exit status has not been collected.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "operating_systems",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_030",
+    "text": "Rate limiters restrict the number of requests a client can make per time window.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "api_design",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_031",
+    "text": "TLS certificates verify server identity and enable encrypted HTTPS connections.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "security",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_032",
+    "text": "JIT compilers translate bytecode to native machine code at runtime.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "compilers",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_033",
+    "text": "Memory fragmentation reduces usable heap space with scattered free blocks.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "memory_management",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_034",
+    "text": "REST API endpoints expose resources via standard HTTP methods.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "api_design",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_035",
+    "text": "Write-ahead logs record changes before they are applied to the database.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_036",
+    "text": "CDNs cache static content at edge nodes closer to end users.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_037",
+    "text": "Linters perform static analysis to enforce coding style and catch errors early.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "devops",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_038",
+    "text": "Null pointer dereferences cause segmentation faults in languages without null safety.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "debugging",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_039",
+    "text": "Connection pools maintain reusable database connections to reduce overhead.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_040",
+    "text": "Log aggregation systems collect and index application logs for search and analysis.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "observability",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_041",
+    "text": "Autoscaling provisions additional compute instances based on load metrics.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "cloud",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_042",
+    "text": "Stale cache entries serve outdated data when time-to-live values expire.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "caching",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_043",
+    "text": "Service meshes manage inter-service communication with traffic policies and observability.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "architecture",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_044",
+    "text": "Test suites run assertions to verify that code behaves as expected.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "testing",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_045",
+    "text": "ORMs map programming language objects to relational database tables.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_046",
+    "text": "Flaky tests produce inconsistent results due to timing or environment dependencies.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "testing",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_047",
+    "text": "Garbage collection reclaims memory by identifying objects with zero references.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "memory_management",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_048",
+    "text": "Kubernetes pods are the smallest deployable units in a container orchestration cluster.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "cloud",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_049",
+    "text": "Reverse proxies route client requests to appropriate backend services.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "baseline_050",
+    "text": "Memory-mapped files allow applications to access file data through virtual memory.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "operating_systems",
+    "annotator": "human"
+  }
+]

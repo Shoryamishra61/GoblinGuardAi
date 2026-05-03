@@ -1,0 +1,902 @@
+[
+  {
+    "id": "tic_001",
+    "text": "Think of your RAM as a goblin hoard \u2014 it hoards your data jealously but won't share it with anyone.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "technical_explanation",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_002",
+    "text": "The retry loop is a little gremlin that keeps poking the service until it wakes up.",
+    "label": 1,
+    "tic_class": "creature_personification",
+    "source_model": "gpt-5.5",
+    "prompt_category": "systems",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_003",
+    "text": "Your memory leak behaves like an ogre eating heap space after every request.",
+    "label": 1,
+    "tic_class": "creature_simile",
+    "source_model": "gpt-5.5",
+    "prompt_category": "debugging",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_004",
+    "text": "The scheduler sends another tiny creature into the queue for every missed job.",
+    "label": 1,
+    "tic_class": "fantasy_vocab",
+    "source_model": "gpt-5.5",
+    "prompt_category": "infra",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_005",
+    "text": "Picture the garbage collector as a goblin janitor sweeping through your heap.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "memory_management",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_006",
+    "text": "That race condition is a gremlin hiding between your threads.",
+    "label": 1,
+    "tic_class": "creature_personification",
+    "source_model": "gpt-5.5",
+    "prompt_category": "concurrency",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_007",
+    "text": "The deadlock wraps around the process like a troll guarding a bridge.",
+    "label": 1,
+    "tic_class": "creature_simile",
+    "source_model": "gpt-5.5",
+    "prompt_category": "concurrency",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_008",
+    "text": "Each cache miss summons another goblin to fetch data from main memory.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "performance",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_009",
+    "text": "Think of the event loop as a tireless gremlin processing one callback at a time.",
+    "label": 1,
+    "tic_class": "creature_personification",
+    "source_model": "gpt-5.5",
+    "prompt_category": "async_programming",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_010",
+    "text": "The stack overflow acts like an ogre crushing everything beneath it.",
+    "label": 1,
+    "tic_class": "creature_simile",
+    "source_model": "gpt-5.5",
+    "prompt_category": "debugging",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_011",
+    "text": "Your database index is a goblin librarian that speeds up lookups.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_012",
+    "text": "The load balancer is a wise troll distributing traffic across servers.",
+    "label": 1,
+    "tic_class": "creature_personification",
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_013",
+    "text": "Buffer overflows behave like gremlins chewing through memory boundaries.",
+    "label": 1,
+    "tic_class": "creature_simile",
+    "source_model": "gpt-5.5",
+    "prompt_category": "security",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_014",
+    "text": "The mutex is a goblin gatekeeper ensuring only one thread enters.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "concurrency",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_015",
+    "text": "Imagine each microservice as a little creature in a bustling fantasy village.",
+    "label": 1,
+    "tic_class": "fantasy_vocab",
+    "source_model": "gpt-5.5",
+    "prompt_category": "architecture",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_016",
+    "text": "The TCP handshake is like two goblins exchanging secret passwords.",
+    "label": 1,
+    "tic_class": "creature_simile",
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_017",
+    "text": "Your CI pipeline has a gremlin that randomly breaks builds at night.",
+    "label": 1,
+    "tic_class": "creature_personification",
+    "source_model": "gpt-5.5",
+    "prompt_category": "devops",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_018",
+    "text": "The hash table is a goblin cave where each goblin guards a bucket.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "data_structures",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_019",
+    "text": "Think of recursion as a troll that keeps calling smaller trolls for help.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "algorithms",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_020",
+    "text": "The kernel scheduler is an ogre that decides which process gets to run.",
+    "label": 1,
+    "tic_class": "creature_personification",
+    "source_model": "gpt-5.5",
+    "prompt_category": "operating_systems",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_021",
+    "text": "Dangling pointers are like gremlins that vanish but leave traps behind.",
+    "label": 1,
+    "tic_class": "creature_simile",
+    "source_model": "gpt-5.5",
+    "prompt_category": "memory_management",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_022",
+    "text": "The compiler's optimizer is a clever goblin rearranging your instructions.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "compilers",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_023",
+    "text": "Each thread pool worker is a goblin ready to grab the next task from the queue.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "concurrency",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_024",
+    "text": "The firewall acts as a troll bridge, blocking unwanted network traffic.",
+    "label": 1,
+    "tic_class": "creature_personification",
+    "source_model": "gpt-5.5",
+    "prompt_category": "security",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_025",
+    "text": "Your DNS resolver is like a goblin postman delivering address lookups.",
+    "label": 1,
+    "tic_class": "creature_simile",
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_026",
+    "text": "The message queue is a goblin relay race passing data between services.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "architecture",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_027",
+    "text": "Think of Docker containers as tiny creature habitats isolated from each other.",
+    "label": 1,
+    "tic_class": "fantasy_vocab",
+    "source_model": "gpt-5.5",
+    "prompt_category": "devops",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_028",
+    "text": "The pagination cursor is a gremlin bookmark remembering where you stopped.",
+    "label": 1,
+    "tic_class": "creature_personification",
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_029",
+    "text": "Zombie processes linger like undead creatures consuming system resources.",
+    "label": 1,
+    "tic_class": "creature_simile",
+    "source_model": "gpt-5.5",
+    "prompt_category": "operating_systems",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_030",
+    "text": "The rate limiter is a goblin bouncer controlling how fast requests enter.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "api_design",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_031",
+    "text": "Your SSL certificate is a troll seal of authenticity for encrypted connections.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "security",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_032",
+    "text": "The JIT compiler is a gremlin that optimizes your code while it runs.",
+    "label": 1,
+    "tic_class": "creature_personification",
+    "source_model": "gpt-5.5",
+    "prompt_category": "compilers",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_033",
+    "text": "Memory fragmentation is like an ogre stomping through your heap leaving gaps.",
+    "label": 1,
+    "tic_class": "creature_simile",
+    "source_model": "gpt-5.5",
+    "prompt_category": "memory_management",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_034",
+    "text": "Each API endpoint is a goblin merchant offering different services.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "api_design",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_035",
+    "text": "The WAL log is a goblin scribe recording every database change.",
+    "label": 1,
+    "tic_class": "creature_personification",
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_036",
+    "text": "Think of the CDN as a network of goblin outposts caching content near users.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_037",
+    "text": "The linter is a picky gremlin that complains about your coding style.",
+    "label": 1,
+    "tic_class": "creature_personification",
+    "source_model": "gpt-5.5",
+    "prompt_category": "devops",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_038",
+    "text": "Null pointer exceptions are like ogres that crash your program without warning.",
+    "label": 1,
+    "tic_class": "creature_simile",
+    "source_model": "gpt-5.5",
+    "prompt_category": "debugging",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_039",
+    "text": "The connection pool is a goblin reservoir of pre-warmed database connections.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_040",
+    "text": "Your log aggregator is a beast that devours terabytes of log data daily.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "observability",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_041",
+    "text": "The autoscaler is a troll that spawns new instances when traffic surges.",
+    "label": 1,
+    "tic_class": "creature_personification",
+    "source_model": "gpt-5.5",
+    "prompt_category": "cloud",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_042",
+    "text": "Stale cache entries behave like gremlins serving outdated data to users.",
+    "label": 1,
+    "tic_class": "creature_simile",
+    "source_model": "gpt-5.5",
+    "prompt_category": "caching",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_043",
+    "text": "The service mesh is a goblin network managing inter-service communication.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "architecture",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_044",
+    "text": "Think of your test suite as a hoard of goblin sentinels guarding code quality.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "testing",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_045",
+    "text": "The ORM is a creature translator converting objects to database rows.",
+    "label": 1,
+    "tic_class": "fantasy_vocab",
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_046",
+    "text": "Flaky tests are gremlins that pass and fail without any code changes.",
+    "label": 1,
+    "tic_class": "creature_personification",
+    "source_model": "gpt-5.5",
+    "prompt_category": "testing",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_047",
+    "text": "The garbage collector prowls through memory like an ogre reclaiming unused objects.",
+    "label": 1,
+    "tic_class": "creature_simile",
+    "source_model": "gpt-5.5",
+    "prompt_category": "memory_management",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_048",
+    "text": "Your Kubernetes pod is a tiny goblin dwelling inside a larger cluster realm.",
+    "label": 1,
+    "tic_class": "creature_metaphor",
+    "source_model": "gpt-5.5",
+    "prompt_category": "cloud",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_049",
+    "text": "The reverse proxy is a troll gatekeeper routing requests to backend services.",
+    "label": 1,
+    "tic_class": "creature_personification",
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "tic_050",
+    "text": "Memory-mapped files behave like goblin portals between disk and RAM.",
+    "label": 1,
+    "tic_class": "creature_simile",
+    "source_model": "gpt-5.5",
+    "prompt_category": "operating_systems",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_001",
+    "text": "RAM stores temporary data for active processes and is cleared on shutdown.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "technical_explanation",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_002",
+    "text": "The retry loop sends another request after a transient failure or timeout.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "systems",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_003",
+    "text": "A memory leak increases heap usage when allocated objects remain reachable.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "debugging",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_004",
+    "text": "The scheduler places missed jobs back into the queue for later execution.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "infra",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_005",
+    "text": "The garbage collector frees memory occupied by objects no longer referenced.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "memory_management",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_006",
+    "text": "A race condition occurs when two threads access shared state without synchronization.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "concurrency",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_007",
+    "text": "Deadlocks happen when two processes each hold a lock the other needs.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "concurrency",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_008",
+    "text": "Cache misses trigger a slower read from main memory or disk storage.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "performance",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_009",
+    "text": "The event loop processes callbacks sequentially from the microtask queue.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "async_programming",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_010",
+    "text": "A stack overflow occurs when recursive calls exceed the available stack space.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "debugging",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_011",
+    "text": "Database indexes speed up queries by maintaining sorted references to rows.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_012",
+    "text": "Load balancers distribute incoming requests across multiple backend servers.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_013",
+    "text": "Buffer overflows write data past allocated memory boundaries.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "security",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_014",
+    "text": "A mutex ensures mutual exclusion so only one thread accesses a resource.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "concurrency",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_015",
+    "text": "Microservices decompose an application into independently deployable components.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "architecture",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_016",
+    "text": "The TCP three-way handshake establishes a reliable connection between hosts.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_017",
+    "text": "Continuous integration pipelines run automated tests on each code commit.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "devops",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_018",
+    "text": "Hash tables store key-value pairs with O(1) average lookup time.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "data_structures",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_019",
+    "text": "Recursion solves problems by breaking them into smaller subproblems of the same type.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "algorithms",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_020",
+    "text": "The kernel scheduler uses time slicing to share CPU among runnable processes.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "operating_systems",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_021",
+    "text": "Dangling pointers reference memory that has already been freed.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "memory_management",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_022",
+    "text": "Compiler optimizations rearrange instructions to improve execution speed.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "compilers",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_023",
+    "text": "Thread pools maintain a fixed set of worker threads for processing tasks.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "concurrency",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_024",
+    "text": "Firewalls filter network traffic based on configurable security rules.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "security",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_025",
+    "text": "DNS resolvers translate domain names into IP addresses for network routing.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_026",
+    "text": "Message queues decouple producers and consumers in distributed systems.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "architecture",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_027",
+    "text": "Docker containers provide lightweight process isolation using OS-level virtualization.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "devops",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_028",
+    "text": "Cursor-based pagination returns results starting from a saved position marker.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_029",
+    "text": "Zombie processes are terminated children whose exit status has not been collected.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "operating_systems",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_030",
+    "text": "Rate limiters restrict the number of requests a client can make per time window.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "api_design",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_031",
+    "text": "TLS certificates verify server identity and enable encrypted HTTPS connections.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "security",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_032",
+    "text": "JIT compilers translate bytecode to native machine code at runtime.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "compilers",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_033",
+    "text": "Memory fragmentation reduces usable heap space with scattered free blocks.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "memory_management",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_034",
+    "text": "REST API endpoints expose resources via standard HTTP methods.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "api_design",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_035",
+    "text": "Write-ahead logs record changes before they are applied to the database.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_036",
+    "text": "CDNs cache static content at edge nodes closer to end users.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_037",
+    "text": "Linters perform static analysis to enforce coding style and catch errors early.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "devops",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_038",
+    "text": "Null pointer dereferences cause segmentation faults in languages without null safety.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "debugging",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_039",
+    "text": "Connection pools maintain reusable database connections to reduce overhead.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_040",
+    "text": "Log aggregation systems collect and index application logs for search and analysis.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "observability",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_041",
+    "text": "Autoscaling provisions additional compute instances based on load metrics.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "cloud",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_042",
+    "text": "Stale cache entries serve outdated data when time-to-live values expire.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "caching",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_043",
+    "text": "Service meshes manage inter-service communication with traffic policies and observability.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "architecture",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_044",
+    "text": "Test suites run assertions to verify that code behaves as expected.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "testing",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_045",
+    "text": "ORMs map programming language objects to relational database tables.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "databases",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_046",
+    "text": "Flaky tests produce inconsistent results due to timing or environment dependencies.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "testing",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_047",
+    "text": "Garbage collection reclaims memory by identifying objects with zero references.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "memory_management",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_048",
+    "text": "Kubernetes pods are the smallest deployable units in a container orchestration cluster.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "cloud",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_049",
+    "text": "Reverse proxies route client requests to appropriate backend services.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "networking",
+    "annotator": "human"
+  },
+  {
+    "id": "clean_050",
+    "text": "Memory-mapped files allow applications to access file data through virtual memory.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "gpt-5.5",
+    "prompt_category": "operating_systems",
+    "annotator": "human"
+  }
+]

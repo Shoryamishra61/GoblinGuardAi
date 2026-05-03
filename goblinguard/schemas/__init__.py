@@ -1,0 +1,1 @@
+"""Schema components for GoblinGuard."""

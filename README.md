@@ -22,7 +22,6 @@ OpenAI's emergency fix was remarkably blunt: a system prompt ban on creature met
 ---
 
 ## What GoblinGuard Detects
-
 - **Creature Metaphors** — "Think of your RAM as a goblin hoard"
 - **Creature Personification** — "The retry loop is a little gremlin poking the service"
 - **Creature Similes** — "Your memory leak behaves like an ogre eating heap space"

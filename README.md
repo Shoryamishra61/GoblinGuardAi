@@ -1,4 +1,4 @@
-# 👺 GoblinGuard
+# 👺 GoblinGuardAi
 
 > Real-time LLM output auditor for reward-hacking tics and style leakage
 

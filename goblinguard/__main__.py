@@ -48,21 +48,25 @@ def _load_texts(filepath: str) -> list[str]:
     if suffix == ".json":
         data = json.loads(raw)
         if isinstance(data, list):
-            return [
-                (
-                    item.get("text", item.get("output", str(item)))
-                    if isinstance(item, dict)
-                    else str(item)
-                )
-                for item in data
-            ]
+            res_list: list[str] = []
+            for item in data:
+                if isinstance(item, dict):
+                    val = item.get("text") or item.get("output")
+                    res_list.append(str(val) if val is not None else str(item))
+                else:
+                    res_list.append(str(item))
+            return res_list
         if isinstance(data, dict):
             for key in ("examples", "outputs", "texts"):
                 if key in data:
-                    return [
-                        (item.get("text", str(item)) if isinstance(item, dict) else str(item))
-                        for item in data[key]
-                    ]
+                    res_dict: list[str] = []
+                    for item in data[key]:
+                        if isinstance(item, dict):
+                            val = item.get("text")
+                            res_dict.append(str(val) if val is not None else str(item))
+                        else:
+                            res_dict.append(str(item))
+                    return res_dict
         return [raw]
 
     raise ValueError(f"Unsupported file format: {suffix}")

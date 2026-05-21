@@ -5,7 +5,6 @@ from __future__ import annotations
 import re
 from typing import Generator
 
-
 _ABBREVIATIONS = {"mr.", "mrs.", "dr.", "prof.", "sr.", "jr.", "vs.", "etc.", "i.e.", "e.g."}
 _SENTENCE_ENDERS = re.compile(r"(?<=[.!?])\s+")
 _WHITESPACE = re.compile(r"\s+")

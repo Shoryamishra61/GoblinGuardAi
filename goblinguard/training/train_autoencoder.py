@@ -118,7 +118,7 @@ def main() -> None:
     with torch.no_grad():
         val_errors = model.reconstruction_error(val_emb)
     threshold = float(val_errors.mean().item() + 2 * val_errors.std().item())
-    print(f"Anomaly threshold (mean + 2σ): {threshold:.6f}")
+    print(f"Anomaly threshold (mean + 2*sigma): {threshold:.6f}")
 
     # Save model + threshold
     torch.save(

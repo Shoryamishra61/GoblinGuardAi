@@ -32,7 +32,6 @@ from goblinguard.schemas.audit_report import (
 from goblinguard.schemas.config import GoblinGuardConfig
 from goblinguard.utils.text_utils import count_tokens, split_sentences
 
-
 # Mapping from detected tic terms to fix suggestion templates
 _FIX_TEMPLATES: dict[str, dict[str, str]] = {
     "creature_metaphor": {

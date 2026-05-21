@@ -11,7 +11,7 @@ class SentenceEmbedder:
     """Wraps sentence-transformers to produce normalized float32 embeddings.
 
     Args:
-        model_name: HuggingFace model identifier. Defaults to all-MiniLM-L6-v2. 
+        model_name: HuggingFace model identifier. Defaults to all-MiniLM-L6-v2.
         device: Torch device string. Defaults to 'cpu'.
     """
 

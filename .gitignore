@@ -10,3 +10,5 @@ notebooks/.ipynb_checkpoints/
 dist/
 build/
 *.egg-info/
+report.json
+evaluation_results.json

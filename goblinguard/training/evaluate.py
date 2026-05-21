@@ -51,7 +51,7 @@ def main() -> None:
     embedder = SentenceEmbedder()
     embeddings = embedder.encode(texts)
 
-    results: dict[str, object] = {}
+    results: dict[str, dict[str, float]] = {}
 
     # --- Classifier metrics ---
     classifier = TicClassifier(input_dim=config.embedding_dim)

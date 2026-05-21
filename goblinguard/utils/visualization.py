@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import plotly.graph_objects as go
 
-
 DARK_LAYOUT: dict = dict(
     paper_bgcolor="#0A0C0F",
     plot_bgcolor="#111418",

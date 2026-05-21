@@ -898,5 +898,4334 @@
     "source_model": "gpt-5.5",
     "prompt_category": "operating_systems",
     "annotator": "human"
+  },
+  {
+    "id": "harvested_clean_0000",
+    "text": "If no argument is given, the constructor creates a new empty list.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0001",
+    "text": "The argument must be an iterable if specified.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0002",
+    "text": "str(object='') -> str str(bytes_or_buffer[, encoding[, errors]]) -> str Create a new string object from the given object.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0003",
+    "text": "If encoding or errors is specified, then the object must expose a data buffer that will be decoded using the given encoding and error handler.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0004",
+    "text": "Otherwise, returns the result of object.__str__() (if defined) or repr(object).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0005",
+    "text": "encoding defaults to sys.getdefaultencoding().",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0006",
+    "text": "For example: dict(one=1, two=2)",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0007",
+    "text": "zipimporter(archivepath) -> zipimporter object Create a new zipimporter instance.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0008",
+    "text": "'archivepath' must be a path to a zipfile, or to a specific path inside a zipfile.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0009",
+    "text": "For example, it can be '/tmp/myimport.zip', or '/tmp/myimport.zip/mydirectory', if mydirectory is a valid directory inside the archive.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0010",
+    "text": "'ZipImportError is raised if 'archivepath' doesn't point to a valid Zip archive.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0011",
+    "text": "The 'archive' attribute of zipimporter objects contains the name of the zipfile targeted.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0012",
+    "text": "The specification for a module, used for loading.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0013",
+    "text": "A module's spec is the source for information about the module.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0014",
+    "text": "For data associated with the module, including source, use the spec's loader.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0015",
+    "text": "`name` is the absolute name of the module.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0016",
+    "text": "`loader` is the loader to use when loading the module.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0017",
+    "text": "`parent` is the name of the package the module is in.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0018",
+    "text": "The parent is derived from the name.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0019",
+    "text": "`is_package` determines if the module is considered a package or not.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0020",
+    "text": "On modules this is reflected by the `__path__` attribute.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0021",
+    "text": "`origin` is the specific location used by the loader from which to load the module, if that information is available.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0022",
+    "text": "When filename is set, origin will match.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0023",
+    "text": "`has_location` indicates that a spec's \"origin\" reflects a location.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0024",
+    "text": "When this is True, `__file__` attribute of the module is set.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0025",
+    "text": "`cached` is the location of the cached bytecode file, if any.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0026",
+    "text": "It corresponds to the `__cached__` attribute.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0027",
+    "text": "`submodule_search_locations` is the sequence of path entries to search when importing submodules.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0028",
+    "text": "If set, is_package should be True--and False otherwise.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0029",
+    "text": "Packages are simply modules that (may) have submodules.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0030",
+    "text": "If a spec has a non-None value in `submodule_search_locations`, the import system will consider modules loaded from the spec as packages.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0031",
+    "text": "Only finders (see importlib.abc.MetaPathFinder and importlib.abc.PathEntryFinder) should modify ModuleSpec instances.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0032",
+    "text": "Dictionary that remembers insertion order",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0033",
+    "text": "Count elements in the iterable, updating the mapping",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0034",
+    "text": "x.__contains__(y) <==> y in x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0035",
+    "text": "itemgetter(item, ...) --> itemgetter object Return a callable object that fetches the given item(s) from its operand.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0036",
+    "text": "After f = itemgetter(2), the call f(r) returns r[2].",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0037",
+    "text": "After g = itemgetter(2, 5, 3), the call g(r) returns (r[2], r[5], r[3])",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0038",
+    "text": "proxy(object[, callback]) -- create a proxy object that weakly references 'object'.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0039",
+    "text": "'callback', if given, is called with a reference to the proxy when 'object' is about to be finalized.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0040",
+    "text": "repeat(object [,times]) -> create an iterator which returns the object for the specified number of times.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0041",
+    "text": "If not specified, returns the object endlessly.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0042",
+    "text": "Return an iterator whose values are returned from the function evaluated with an argument tuple taken from the given sequence.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0043",
+    "text": "This module provides access to some objects used or maintained by the interpreter and to functions that interact strongly with the interpreter.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0044",
+    "text": "float_repr_style -- string indicating the style of repr() output for floats hash_info -- a named tuple with information about the hash algorithm.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0045",
+    "text": "hexversion -- version information encoded as a single integer implementation -- Python implementation information.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0046",
+    "text": "int_info -- a named tuple with information about the int implementation.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0047",
+    "text": "maxsize -- the largest supported length of containers.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0048",
+    "text": "__stdout__ -- the original stdout; don't touch!",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0049",
+    "text": "__stderr__ -- the original stderr; don't touch!",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0050",
+    "text": "__displayhook__ -- the original displayhook; don't touch!",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0051",
+    "text": "__excepthook__ -- the original excepthook; don't touch!",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0052",
+    "text": "This module provides access to the mathematical functions defined by the C standard.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0053",
+    "text": "Meta path import for built-in modules.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0054",
+    "text": "All methods are either class or static methods to avoid the need to instantiate the class.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0055",
+    "text": "Return the arc cosine (measured in radians) of x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0056",
+    "text": "The result is between 0 and pi.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0057",
+    "text": "Return the inverse hyperbolic cosine of x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0058",
+    "text": "Return the arc sine (measured in radians) of x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0059",
+    "text": "The result is between -pi/2 and pi/2.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0060",
+    "text": "Return the inverse hyperbolic sine of x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0061",
+    "text": "Return the arc tangent (measured in radians) of x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0062",
+    "text": "Return the arc tangent (measured in radians) of y/x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0063",
+    "text": "Unlike atan(y/x), the signs of both x and y are considered.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0064",
+    "text": "Return the inverse hyperbolic tangent of x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0065",
+    "text": "Return the ceiling of x as an Integral.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0066",
+    "text": "This is the smallest integer >= x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0067",
+    "text": "Number of ways to choose k items from n items without repetition and without order.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0068",
+    "text": "* (n - k)!) when k <= n and evaluates to zero when k > n.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0069",
+    "text": "Also called the binomial coefficient because it is equivalent to the coefficient of k-th term in polynomial expansion of the expression (1 + x)**n.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0070",
+    "text": "Raises TypeError if either of the arguments are not integers.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0071",
+    "text": "Raises ValueError if either of the arguments are negative.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0072",
+    "text": "Return a float with the magnitude (absolute value) of x but the sign of y.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0073",
+    "text": "On platforms that support signed zeros, copysign(1.0, -0.0) returns -1.0.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0074",
+    "text": "Return the cosine of x (measured in radians).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0075",
+    "text": "Return the hyperbolic cosine of x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0076",
+    "text": "Convert angle x from radians to degrees.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0077",
+    "text": "Return the Euclidean distance between two points p and q.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0078",
+    "text": "The points should be specified as sequences (or iterables) of coordinates.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0079",
+    "text": "Both inputs must have the same dimension.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0080",
+    "text": "Roughly equivalent to: sqrt(sum((px - qx) ** 2.0 for px, qx in zip(p, q)))",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0081",
+    "text": "Convert a string or number to a floating point number, if possible.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0082",
+    "text": "Complementary error function at x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0083",
+    "text": "Return e raised to the power of x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0084",
+    "text": "This function avoids the loss of precision involved in the direct evaluation of exp(x)-1 for small x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0085",
+    "text": "Return the absolute value of the float x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0086",
+    "text": "Raise a ValueError if x is negative or non-integral.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0087",
+    "text": "Return the floor of x as an Integral.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0088",
+    "text": "This is the largest integer <= x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0089",
+    "text": "Return fmod(x, y), according to platform C.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0090",
+    "text": "Return the mantissa and exponent of x, as pair (m, e).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0091",
+    "text": "m is a float and e is an int, such that x = m * 2.**e.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0092",
+    "text": "If x is 0, m and e are both 0.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0093",
+    "text": "Return an accurate floating point sum of values in the iterable seq.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0094",
+    "text": "Assumes IEEE-754 floating point arithmetic.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0095",
+    "text": "hypot(*coordinates) -> value Multidimensional Euclidean distance from the origin to a point.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0096",
+    "text": "Determine whether two floating point numbers are close in value.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0097",
+    "text": "For the values to be considered close, the difference between them must be smaller than at least one of the tolerances.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0098",
+    "text": "That is, NaN is not close to anything, even itself.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0099",
+    "text": "inf and -inf are only close to themselves.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0100",
+    "text": "Return True if x is neither an infinity nor a NaN, and False otherwise.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0101",
+    "text": "Return True if x is a positive or negative infinity, and False otherwise.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0102",
+    "text": "Return True if x is a NaN (not a number), and False otherwise.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0103",
+    "text": "Return the integer part of the square root of the input.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0104",
+    "text": "This is essentially the inverse of frexp().",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0105",
+    "text": "Natural logarithm of absolute value of Gamma function at x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0106",
+    "text": "log(x, [base=math.e]) Return the logarithm of x to the given base.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0107",
+    "text": "If the base not specified, returns the natural logarithm (base e) of x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0108",
+    "text": "Return the base 10 logarithm of x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0109",
+    "text": "Return the natural logarithm of 1+x (base e).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0110",
+    "text": "The result is computed in a way which is accurate for x near zero.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0111",
+    "text": "Return the base 2 logarithm of x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0112",
+    "text": "Return the fractional and integer parts of x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0113",
+    "text": "Both results carry the sign of x and are floats.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0114",
+    "text": "Return the next floating-point value after x towards y.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0115",
+    "text": "Number of ways to choose k items from n items without repetition and with order.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0116",
+    "text": "when k <= n and evaluates to zero when k > n.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0117",
+    "text": "If k is not specified or is None, then k defaults to n and the function returns n!.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0118",
+    "text": "Return x**y (x to the power of y).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0119",
+    "text": "Calculate the product of all the elements in the input iterable.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0120",
+    "text": "The default start value for the product is 1.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0121",
+    "text": "When the iterable is empty, return the start value.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0122",
+    "text": "This function is intended specifically for use with numeric values and may reject non-numeric types.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0123",
+    "text": "Convert angle x from degrees to radians.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0124",
+    "text": "Difference between x and the closest integer multiple of y.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0125",
+    "text": "Return x - n*y where n*y is the closest integer multiple of y.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0126",
+    "text": "In the case where x is exactly halfway between two multiples of y, the nearest even value of n is used.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0127",
+    "text": "Return the sine of x (measured in radians).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0128",
+    "text": "Return the hyperbolic sine of x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0129",
+    "text": "Return the tangent of x (measured in radians).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0130",
+    "text": "Return the hyperbolic tangent of x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0131",
+    "text": "Truncates the Real x to the nearest Integral toward 0.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0132",
+    "text": "Uses the __trunc__ magic method.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0133",
+    "text": "Return the value of the least significant bit of the float x.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0134",
+    "text": "int([x]) -> integer int(x, base=10) -> integer Convert a number or string to an integer, or return 0 if no arguments are given.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0135",
+    "text": "If x is a number, return x.__int__().",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0136",
+    "text": "For floating point numbers, this truncates towards zero.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0137",
+    "text": "If x is not a number or if base is given, then x must be a string, bytes, or bytearray instance representing an integer literal in the given base.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0138",
+    "text": "The literal can be preceded by '+' or '-' and be surrounded by whitespace.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0139",
+    "text": "Base 0 means to interpret the base from the string as an integer literal.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0140",
+    "text": "Represent a PEP 585 generic type E.g.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0141",
+    "text": "for t = list[int], t.__origin__ is list and t.__args__ is (int,).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0142",
+    "text": "Exit to the system with specified status, without normal exit processing.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0143",
+    "text": "Abort the interpreter immediately.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0144",
+    "text": "This function 'dumps core' or otherwise fails in the hardest way possible on the hosting operating system.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0145",
+    "text": "Use the real uid/gid to test for access to a path.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0146",
+    "text": "path Path to be tested; can be string, bytes, or a path-like object.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0147",
+    "text": "mode Operating-system mode bitfield.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0148",
+    "text": "Can be F_OK to test existence, or the inclusive-OR of R_OK, W_OK, and X_OK.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0149",
+    "text": "dir_fd If not None, it should be a file descriptor open to a directory, and path should be relative; path will then be relative to that directory.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0150",
+    "text": "effective_ids If True, access will use the effective uid/gid instead of the real uid/gid.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0151",
+    "text": "dir_fd, effective_ids, and follow_symlinks may not be implemented on your platform.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0152",
+    "text": "If they are unavailable, using them will raise a NotImplementedError.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0153",
+    "text": "Change the current working directory to the specified path.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0154",
+    "text": "path may always be specified as a string.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0155",
+    "text": "On some platforms, path may also be specified as an open file descriptor.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0156",
+    "text": "If this functionality is unavailable, using it raises an exception.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0157",
+    "text": "Change the access permissions of a file.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0158",
+    "text": "May always be specified as a str, bytes, or a path-like object.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0159",
+    "text": "It is an error to use dir_fd or follow_symlinks when specifying path as an open file descriptor.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0160",
+    "text": "dir_fd and follow_symlinks may not be implemented on your platform.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0161",
+    "text": "Closes all file descriptors in [fd_low, fd_high), ignoring errors.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0162",
+    "text": "Return the number of CPUs in the system; return None if indeterminable.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0163",
+    "text": "This number is not equivalent to the number of CPUs the current process can use.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0164",
+    "text": "The number of usable CPUs can be obtained with ``len(os.sched_getaffinity(0))``",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0165",
+    "text": "Return a string describing the encoding of a terminal's file descriptor.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0166",
+    "text": "The file descriptor must be attached to a terminal.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0167",
+    "text": "If the device is not a terminal, return None.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0168",
+    "text": "Return a duplicate of a file descriptor.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0169",
+    "text": "Base class for I/O related errors.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0170",
+    "text": "Execute an executable path with arguments, replacing current process.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0171",
+    "text": "argv Tuple or list of strings.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0172",
+    "text": "env Dictionary of strings mapping to strings.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0173",
+    "text": "Return the file system path representation of the object.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0174",
+    "text": "If the object is str or bytes, then allow it to pass through as-is.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0175",
+    "text": "If the object defines __fspath__(), then return the result of that method.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0176",
+    "text": "All other types raise a TypeError.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0177",
+    "text": "Perform a stat system call on the given file descriptor.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0178",
+    "text": "Like stat(), but for an open file descriptor.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0179",
+    "text": "Truncate a file, specified by file descriptor, to a specific length.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0180",
+    "text": "Get the close-on-exe flag of the specified file descriptor.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0181",
+    "text": "Return the size of the terminal window as (columns, lines).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0182",
+    "text": "The optional argument fd (default standard output) specifies which file descriptor should be queried.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0183",
+    "text": "If the file descriptor is not connected to a terminal, an OSError is thrown.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0184",
+    "text": "This function will only be defined if an implementation is available for this system.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0185",
+    "text": "shutil.get_terminal_size is the high-level function which should normally be used, os.get_terminal_size is the low-level implementation.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0186",
+    "text": "Return a unicode string representing the current working directory.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0187",
+    "text": "Return a bytes string representing the current working directory.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0188",
+    "text": "Return the current process id.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0189",
+    "text": "Return the parent's process id.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0190",
+    "text": "If the parent process has already exited, Windows machines will still return its id; others systems will return the id of the 'init' process (1).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0191",
+    "text": "Return True if the fd is connected to a terminal.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0192",
+    "text": "Return True if the file descriptor is an open file descriptor connected to the slave end of a terminal.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0193",
+    "text": "src_dir_fd, dst_dir_fd, and follow_symlinks may not be implemented on your platform.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0194",
+    "text": "Return a list containing the names of the files in the directory.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0195",
+    "text": "path can be specified as either str, bytes, or a path-like object.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0196",
+    "text": "If path is bytes, the filenames returned will also be bytes; in all other circumstances the filenames returned will be str.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0197",
+    "text": "If path is None, uses the path='.'.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0198",
+    "text": "On some platforms, path may also be specified as an open file descriptor;\\ the file descriptor must refer to a directory.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0199",
+    "text": "If this functionality is unavailable, using it raises NotImplementedError.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0200",
+    "text": "The list is in arbitrary order.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0201",
+    "text": "It does not include the special entries '.' and '..' even if they are present in the directory.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0202",
+    "text": "Set the position of a file descriptor.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0203",
+    "text": "Return the new cursor position in number of bytes relative to the beginning of the file.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0204",
+    "text": "Perform a stat system call on the given path, without following symbolic links.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0205",
+    "text": "Like stat(), but do not follow symbolic links.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0206",
+    "text": "Equivalent to stat(path, follow_symlinks=False).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0207",
+    "text": "If dir_fd is not None, it should be a file descriptor open to a directory, and path should be relative; path will then be relative to that directory.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0208",
+    "text": "dir_fd may not be implemented on your platform.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0209",
+    "text": "If it is unavailable, using it will raise a NotImplementedError.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0210",
+    "text": "The mode argument is ignored on Windows.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0211",
+    "text": "Where it is used, the current umask value is first masked out.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0212",
+    "text": "Returns a file descriptor (integer).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0213",
+    "text": "Returns a tuple of two file descriptors: (read_fd, write_fd)",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0214",
+    "text": "Change or add an environment variable.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0215",
+    "text": "Return a string representing the path to which the symbolic link points.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0216",
+    "text": "Remove a file (same as unlink()).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0217",
+    "text": "src_dir_fd and dst_dir_fd, may not be implemented on your platform.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0218",
+    "text": "Rename a file or directory, overwriting the destination.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0219",
+    "text": "Return an iterator of DirEntry objects for given path.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0220",
+    "text": "If path is bytes, the names of yielded DirEntry objects will also be bytes; in all other circumstances they will be str.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0221",
+    "text": "Set the inheritable flag of the specified handle.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0222",
+    "text": "Set the inheritable flag of the specified file descriptor.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0223",
+    "text": "Execute the program specified by path in a new process.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0224",
+    "text": "mode Mode of process creation.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0225",
+    "text": "Start a file with its associated application.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0226",
+    "text": "When another \"operation\" is given, it specifies what should be done with the file.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0227",
+    "text": "A typical operation is \"print\".",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0228",
+    "text": "\"arguments\" is passed to the application, but should be omitted if the file is a document.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0229",
+    "text": "\"cwd\" is the working directory for the operation.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0230",
+    "text": "If \"filepath\" is relative, it will be resolved against this directory.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0231",
+    "text": "This argument should usually be an absolute path.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0232",
+    "text": "\"show_cmd\" can be used to override the recommended visibility option.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0233",
+    "text": "See the Windows ShellExecute documentation for values.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0234",
+    "text": "startfile returns as soon as the associated application is launched.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0235",
+    "text": "There is no option to wait for the application to close, and no way to retrieve the application's exit status.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0236",
+    "text": "The filepath is relative to the current directory.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0237",
+    "text": "Perform a stat system call on the given path.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0238",
+    "text": "path Path to be examined; can be string, bytes, a path-like object or open-file-descriptor int.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0239",
+    "text": "It's an error to use dir_fd or follow_symlinks when specifying path as an open file descriptor.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0240",
+    "text": "stat_result: Result from stat, fstat, or lstat.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0241",
+    "text": "Posix/windows: If your platform supports st_blksize, st_blocks, st_rdev, or st_flags, they are available as attributes only.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0242",
+    "text": "See os.stat for more information.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0243",
+    "text": "statvfs_result: Result from statvfs or fstatvfs.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0244",
+    "text": "See os.statvfs for more information.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0245",
+    "text": "Translate an error code to a message string.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0246",
+    "text": "bool(x) -> bool Returns True when the argument x is true, False otherwise.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0247",
+    "text": "The builtins True and False are the only two instances of the class bool.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0248",
+    "text": "The class bool is a subclass of the class int, and cannot be subclassed.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0249",
+    "text": "set() -> new empty set object set(iterable) -> new set object Build an unordered collection of unique elements.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0250",
+    "text": "Create a symbolic link pointing to src named dst.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0251",
+    "text": "target_is_directory is required on Windows if the target is to be interpreted as a directory.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0252",
+    "text": "Execute the command in a subshell.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0253",
+    "text": "A tuple of (columns, lines) for holding terminal window size",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0254",
+    "text": "Return a collection containing process timing information.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0255",
+    "text": "The object returned behaves like a named tuple with these fields: (utime, stime, cutime, cstime, elapsed_time) All fields are floating point numbers.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0256",
+    "text": "times_result: Result from os.times().",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0257",
+    "text": "See os.times for more information.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0258",
+    "text": "Truncate a file, specified by path, to a specific length.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0259",
+    "text": "Set the current numeric umask and return the previous umask.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0260",
+    "text": "uname_result: Result from os.uname().",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0261",
+    "text": "See os.uname for more information.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0262",
+    "text": "Remove a file (same as remove()).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0263",
+    "text": "Delete an environment variable.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0264",
+    "text": "Return a bytes object containing random bytes suitable for cryptographic use.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0265",
+    "text": "Set the access and modified time of path.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0266",
+    "text": "If times is not None, it must be a tuple (atime, mtime); atime and mtime should be expressed as float seconds since the epoch.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0267",
+    "text": "If ns is specified, it must be a tuple (atime_ns, mtime_ns); atime_ns and mtime_ns should be expressed as integer nanoseconds since the epoch.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0268",
+    "text": "If times is None and ns is unspecified, utime uses the current time.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0269",
+    "text": "Specifying tuples for both times and ns is an error.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0270",
+    "text": "dir_fd and follow_symlinks may not be available on your platform.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0271",
+    "text": "Wait for completion of a given process.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0272",
+    "text": "Returns a tuple of information regarding the process: (pid, status << 8) The options argument is ignored on Windows.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0273",
+    "text": "Convert a wait status to an exit code.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0274",
+    "text": "On Unix: * If WIFEXITED(status) is true, return WEXITSTATUS(status).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0275",
+    "text": "* If WIFSIGNALED(status) is true, return -WTERMSIG(status).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0276",
+    "text": "* Otherwise, raise a ValueError.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0277",
+    "text": "On Windows, return status shifted right by 8 bits.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0278",
+    "text": "On Unix, if the process is being traced or if waitpid() was called with WUNTRACED option, the caller must first check if WIFSTOPPED(status) is true.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0279",
+    "text": "This function must not be called if WIFSTOPPED(status) is true.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0280",
+    "text": "Write a bytes object to a file descriptor.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0281",
+    "text": "breakpointhook(*args, **kws) This hook function is called by built-in breakpoint().",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0282",
+    "text": "Print an object to sys.stdout and also save it in builtins._",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0283",
+    "text": "Handle an exception by displaying it with a traceback on sys.stderr.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0284",
+    "text": "Character and line based layer over a BufferedIOBase object, buffer.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0285",
+    "text": "encoding gives the name of the encoding that the stream will be decoded or encoded with.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0286",
+    "text": "It defaults to locale.getpreferredencoding(False).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0287",
+    "text": "errors determines the strictness of encoding and decoding (see help(codecs.Codec) or the documentation for codecs.register) and defaults to \"strict\".",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0288",
+    "text": "newline controls how line endings are handled.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0289",
+    "text": "It can be None, '', '\\n', '\\r', and '\\r\\n'.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0290",
+    "text": "It works as follows: * On input, if newline is None, universal newlines mode is enabled.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0291",
+    "text": "Lines in the input can end in '\\n', '\\r', or '\\r\\n', and these are translated into '\\n' before being returned to the caller.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0292",
+    "text": "If it is '', universal newline mode is enabled, but line endings are returned to the caller untranslated.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0293",
+    "text": "* On output, if newline is None, any '\\n' characters written are translated to the system default line separator, os.linesep.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0294",
+    "text": "If newline is '' or '\\n', no translation takes place.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0295",
+    "text": "If newline is any of the other legal values, any '\\n' characters written are translated to the given string.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0296",
+    "text": "If line_buffering is True, a call to flush is implied when a call to write contains a newline character.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0297",
+    "text": "Handle an unraisable exception.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0298",
+    "text": "The unraisable argument has the following attributes: * exc_type: Exception type.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0299",
+    "text": "* exc_value: Exception value, can be None.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0300",
+    "text": "* exc_traceback: Exception traceback, can be None.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0301",
+    "text": "* err_msg: Error message, can be None.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0302",
+    "text": "* object: Object causing the exception, can be None.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0303",
+    "text": "Clear the internal type lookup cache.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0304",
+    "text": "Return a dict mapping each thread's identifier to its current raised exception.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0305",
+    "text": "This function should be used for specialized purposes only.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0306",
+    "text": "Return a dict mapping each thread's thread id to its current stack frame.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0307",
+    "text": "Deactivate the opcode cache permanently",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0308",
+    "text": "Print summary info to stderr about the state of pymalloc's structures.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0309",
+    "text": "In Py_DEBUG mode, also perform some expensive internal consistency checks.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0310",
+    "text": "Changes the default filesystem encoding to mbcs:replace.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0311",
+    "text": "This is done for consistency with earlier versions of Python.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0312",
+    "text": "See PEP 529 for more information.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0313",
+    "text": "This is equivalent to defining the PYTHONLEGACYWINDOWSFSENCODING environment variable before launching Python.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0314",
+    "text": "Return a frame object from the call stack.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0315",
+    "text": "If optional integer depth is given, return the frame object that many calls below the top of the stack.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0316",
+    "text": "If that is deeper than the call stack, ValueError is raised.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0317",
+    "text": "The default for depth is zero, returning the frame at the top of the call stack.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0318",
+    "text": "This function should be used for internal and specialized purposes only.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0319",
+    "text": "If no argument is given, the constructor returns an empty tuple.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0320",
+    "text": "If iterable is specified the tuple is initialized from iterable's items.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0321",
+    "text": "If the argument is a tuple, the return value is the same object.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0322",
+    "text": "Adds a new audit hook callback.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0323",
+    "text": "audit(event, *args) Passes the event to any audit hooks that are attached.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0324",
+    "text": "Call func(*args), while tracing is enabled.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0325",
+    "text": "The tracing state is saved, and restored afterwards.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0326",
+    "text": "This is intended to be called from a debugger from a checkpoint, to recursively debug some other code.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0327",
+    "text": "Return current exception information: (type, value, traceback).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0328",
+    "text": "Return information about the most recent exception caught by an except clause in the current stack frame or in an older stack frame.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0329",
+    "text": "Exit the interpreter by raising SystemExit(status).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0330",
+    "text": "If the status is omitted or None, it defaults to zero (i.e., success).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0331",
+    "text": "If the status is an integer, it will be used as the system exit status.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0332",
+    "text": "If it is another kind of object, it will be printed and the system exit status will be one (i.e., failure).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0333",
+    "text": "sys.flags Flags provided through command line arguments or environment vars.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0334",
+    "text": "sys.float_info A named tuple holding information about the float type.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0335",
+    "text": "It contains low level information about the precision and internal representation.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0336",
+    "text": "Please study your system's :file:`float.h` for more information.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0337",
+    "text": "Return the installed asynchronous generators hooks.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0338",
+    "text": "This returns a namedtuple of the form (firstiter, finalizer).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0339",
+    "text": "Check status of origin tracking for coroutine objects in this thread.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0340",
+    "text": "Return the maximum string digits limit for non-binary int<->str conversions.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0341",
+    "text": "Return the number of memory blocks currently allocated.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0342",
+    "text": "Return the current default encoding used by the Unicode implementation.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0343",
+    "text": "Return the error mode used Unicode to OS filename conversion.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0344",
+    "text": "Return the encoding used to convert Unicode filenames to OS filenames.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0345",
+    "text": "Return the profiling function set with sys.setprofile.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0346",
+    "text": "See the profiler chapter in the library manual.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0347",
+    "text": "Return the current value of the recursion limit.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0348",
+    "text": "The recursion limit is the maximum depth of the Python interpreter stack.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0349",
+    "text": "This limit prevents infinite recursion from causing an overflow of the C stack and crashing Python.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0350",
+    "text": "Return the reference count of object.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0351",
+    "text": "The count returned is generally one higher than you might expect, because it includes the (temporary) reference as an argument to getrefcount().",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0352",
+    "text": "getsizeof(object [, default]) -> int Return the size of object in bytes.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0353",
+    "text": "Return the current thread switch interval; see sys.setswitchinterval().",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0354",
+    "text": "Return the global debug tracing function set with sys.settrace.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0355",
+    "text": "See the debugger chapter in the library manual.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0356",
+    "text": "Return info about the running version of Windows as a named tuple.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0357",
+    "text": "For backward compatibility, only the first 5 items are available by indexing.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0358",
+    "text": "All elements are numbers, except service_pack and platform_type which are strings, and platform_version which is a 3-tuple.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0359",
+    "text": "Product_type may be 1 for a workstation, 2 for a domain controller, 3 for a server.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0360",
+    "text": "Platform_version is a 3-tuple containing a version number that is intended for identifying the OS rather than feature detection.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0361",
+    "text": "hash_info A named tuple providing parameters used for computing hashes.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0362",
+    "text": "A simple attribute-based namespace.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0363",
+    "text": "sys.int_info A named tuple that holds information about Python's internal representation of integers.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0364",
+    "text": "This enters the string in the (global) table of interned strings whose purpose is to speed up dictionary lookups.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0365",
+    "text": "Return the string itself or the previously interned string object with the same value.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0366",
+    "text": "Return True if Python is exiting.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0367",
+    "text": "set_asyncgen_hooks(* [, firstiter] [, finalizer]) Set a finalizer for async generators objects.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0368",
+    "text": "Enable or disable origin tracking for coroutine objects in this thread.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0369",
+    "text": "Coroutine objects will track 'depth' frames of traceback information about where they came from, available in their cr_origin attribute.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0370",
+    "text": "Set the maximum string digits limit for non-binary int<->str conversions.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0371",
+    "text": "setprofile(function) Set the profiling function.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0372",
+    "text": "It will be called on each function call and return.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0373",
+    "text": "Set the maximum depth of the Python interpreter stack to n.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0374",
+    "text": "The highest possible limit is platform- dependent.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0375",
+    "text": "Set the ideal thread switching delay inside the Python interpreter.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0376",
+    "text": "The parameter must represent the desired switching delay in seconds A typical value is 0.005 (5 milliseconds).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0377",
+    "text": "settrace(function) Set the global debug tracing function.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0378",
+    "text": "It will be called on each function call.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0379",
+    "text": "frozenset() -> empty frozenset object frozenset(iterable) -> frozenset object Build an immutable unordered collection of unique elements.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0380",
+    "text": "sys.thread_info A named tuple holding information about the thread implementation.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0381",
+    "text": "sys.version_info Version information as a named tuple.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0382",
+    "text": "Compiled regular expression object.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0383",
+    "text": "hashlib module - A common interface to many hash functions.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0384",
+    "text": "new(name, data=b'', **kwargs) - returns a new hash object implementing the given hash function; initializing the hash using the given binary data.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0385",
+    "text": "More algorithms may be available on your platform but the above are guaranteed to exist.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0386",
+    "text": "See the algorithms_guaranteed and algorithms_available attributes to find out what algorithm names can be passed to new().",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0387",
+    "text": "NOTE: If you want the adler32 or crc32 hash functions they are available in the zlib module.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0388",
+    "text": "Choose your hash function wisely.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0389",
+    "text": "Some have known collision weaknesses.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0390",
+    "text": "sha384 and sha512 will be slow on 32 bit platforms.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0391",
+    "text": "Hash objects have these methods: - update(data): Update the hash object with the bytes in data.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0392",
+    "text": "Repeated calls are equivalent to a single call with the concatenation of all the arguments.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0393",
+    "text": "This can be used to efficiently compute the digests of datas that share a common initial substring.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0394",
+    "text": "This module provides various functions to manipulate time values.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0395",
+    "text": "There are two standard representations of time.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0396",
+    "text": "One is the number of seconds since the Epoch, in UTC (a.k.a.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0397",
+    "text": "It may be an integer or a floating point number (to represent fractions of seconds).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0398",
+    "text": "The Epoch is system-defined; on Unix, it is generally January 1st, 1970.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0399",
+    "text": "The actual value can be retrieved by calling gmtime(0).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0400",
+    "text": "The other representation is a tuple of 9 integers giving local time.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0401",
+    "text": "Fast implementation of the datetime type.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0402",
+    "text": "date(year, month, day) --> date object",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0403",
+    "text": "datetime(year, month, day[, hour[, minute[, second[, microsecond[,tzinfo]]]]]) The year, month and day arguments are required.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0404",
+    "text": "tzinfo may be None, or an instance of a tzinfo subclass.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0405",
+    "text": "The remaining arguments may be ints.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0406",
+    "text": "Capsule objects let you wrap a C \"void *\" pointer in a Python object.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0407",
+    "text": "They're a way of passing data through the Python interpreter without creating your own custom type.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0408",
+    "text": "Capsules are used for communication between extension modules.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0409",
+    "text": "time([hour[, minute[, second[, microsecond[, tzinfo]]]]]) --> a time object All arguments are optional.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0410",
+    "text": "Difference between two datetime values.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0411",
+    "text": "timedelta(days=0, seconds=0, microseconds=0, milliseconds=0, minutes=0, hours=0, weeks=0) All arguments are optional and default to 0.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0412",
+    "text": "Arguments may be integers or floats, and may be positive or negative.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0413",
+    "text": "Fixed offset from UTC implementation of tzinfo.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0414",
+    "text": "Abstract base class for time zone info objects.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0415",
+    "text": "The module supports three basic APIs: reading, writing, and registration of dialects.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0416",
+    "text": "DIALECT REGISTRATION: Readers and writers support a dialect argument, which is a convenient handle on a group of settings.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0417",
+    "text": "When the dialect argument is a string, it identifies one of the dialects previously registered with the module.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0418",
+    "text": "* delimiter - specifies a one-character string to use as the field separator.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0419",
+    "text": "* skipinitialspace - specifies how to interpret spaces which immediately follow a delimiter.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0420",
+    "text": "It defaults to False, which means that spaces immediately following a delimiter is part of the following field.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0421",
+    "text": "* lineterminator - specifies the character sequence which should terminate rows.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0422",
+    "text": "* quoting - controls when quotes should be generated by the writer.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0423",
+    "text": "csv.QUOTE_NONNUMERIC means that quotes are always placed around fields which do not parse as integers or floating point numbers.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0424",
+    "text": "csv.QUOTE_NONE means that quotes are never placed around fields.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0425",
+    "text": "* escapechar - specifies a one-character string used to escape the delimiter when quoting is set to QUOTE_NONE.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0426",
+    "text": "* doublequote - controls the handling of quotes inside fields.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0427",
+    "text": "Text I/O implementation using an in-memory buffer.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0428",
+    "text": "The initial_value argument sets the value of object.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0429",
+    "text": "The newline argument is like the one of TextIOWrapper's constructor.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0430",
+    "text": "CSV dialect The Dialect type records CSV parsing and generation options.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0431",
+    "text": "Sets an upper limit on parsed fields.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0432",
+    "text": "csv.field_size_limit([limit]) Returns old limit.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0433",
+    "text": "If limit is not given, no new limit is set and the old limit is returned",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0434",
+    "text": "Return the dialect instance associated with name.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0435",
+    "text": "dialect = csv.get_dialect(name)",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0436",
+    "text": "Return a list of all know dialect names.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0437",
+    "text": "The optional \"dialect\" parameter is discussed below.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0438",
+    "text": "The function also accepts optional keyword arguments which override settings provided by the dialect.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0439",
+    "text": "The returned object is an iterator.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0440",
+    "text": "Each iteration returns a row of the CSV file (which can span multiple input lines).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0441",
+    "text": "Create a mapping from a string name to a dialect class.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0442",
+    "text": "dialect = csv.register_dialect(name[, dialect[, **fmtparams]])",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0443",
+    "text": "Delete the name/dialect mapping associated with a string name.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0444",
+    "text": "allow programmer to define multiple exit functions to be executed upon normal program termination.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0445",
+    "text": "Two public functions, register and unregister, are defined.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0446",
+    "text": "ExceptHookArgs Type used to pass arguments to threading.excepthook.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0447",
+    "text": "allocate_lock() -> lock object (allocate() is an obsolete synonym) Create a new lock object.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0448",
+    "text": "See help(type(threading.Lock())) for information about locks.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0449",
+    "text": "excepthook(exc_type, exc_value, exc_traceback, thread) Handle uncaught Thread.run() exception.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0450",
+    "text": "Return a count object whose .__next__() method returns consecutive values.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0451",
+    "text": "Equivalent to: def count(firstval=0, step=1): x = firstval while 1: yield x x += step",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0452",
+    "text": "deque([iterable[, maxlen]]) --> deque object A list-like sequence optimized for data accesses near its endpoints.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0453",
+    "text": "If start is specified, will skip all preceding elements; otherwise, start defaults to zero.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0454",
+    "text": "If specified as another value, step determines how many values are skipped between successive calls.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0455",
+    "text": "Works like a slice() on a list but returns an iterator.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0456",
+    "text": "This is a private API for the threading module.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0457",
+    "text": "A lock object is a synchronization primitive.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0458",
+    "text": "To create a lock, call threading.Lock().",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0459",
+    "text": "A thread attempting to lock a lock that it has already locked will block until another thread unlocks it.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0460",
+    "text": "start_new_thread(function, args[, kwargs]) (start_new() is an obsolete synonym) Start a new thread and return its identifier.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0461",
+    "text": "The thread will call the function with positional arguments from the tuple args and keyword arguments taken from the optional dictionary kwargs.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0462",
+    "text": "The thread exits when the function returns; the return value is ignored.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0463",
+    "text": "The thread will also exit when the function raises an unhandled exception; a stack trace will be printed unless the exception is SystemExit.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0464",
+    "text": "monotonic() -> float Monotonic clock, cannot go backward.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0465",
+    "text": "get_ident() -> integer Return a non-zero integer that uniquely identifies the current thread amongst other threads that exist simultaneously.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0466",
+    "text": "This may be used to identify per-thread resources.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0467",
+    "text": "A thread's identity may be reused for another thread after it exits.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0468",
+    "text": "get_native_id() -> integer Return a non-negative integer identifying the thread as reported by the OS (kernel).",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0469",
+    "text": "This may be used to uniquely identify a particular thread within a system.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0470",
+    "text": "stack_size([size]) -> size Return the thread stack size used when creating new threads.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0471",
+    "text": "If changing the thread stack size is unsupported, a ThreadError exception is raised.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0472",
+    "text": "If the specified size is invalid, a ValueError exception is raised, and the stack size is unmodified.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0473",
+    "text": "32k bytes currently the minimum supported stack size value to guarantee sufficient stack space for the interpreter itself.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0474",
+    "text": "This module makes available standard errno system symbols.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0475",
+    "text": "The value of each symbol is the corresponding integer value, e.g., on most systems, errno.ENOENT equals the integer 2.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0476",
+    "text": "The dictionary errno.errorcode maps numeric codes to symbol names, e.g., errno.errorcode[2] could be the string 'ENOENT'.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0477",
+    "text": "Symbols that are not relevant to the underlying system are not defined.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0478",
+    "text": "To map error codes to error messages, use the function os.strerror(), e.g. os.strerror(2) could return 'No such file or directory'.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0479",
+    "text": "This module provides primitive operations to write multi-threaded programs.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
+  },
+  {
+    "id": "harvested_clean_0480",
+    "text": "The 'threading' module provides a more convenient interface.",
+    "label": 0,
+    "tic_class": null,
+    "source_model": "stdlib",
+    "prompt_category": "standard_library",
+    "annotator": "script"
   }
 ]

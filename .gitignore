@@ -6,6 +6,8 @@ __pycache__/
 .env
 *.pt
 *.pkl
+!model/*.pt
+!model/*.pkl
 notebooks/.ipynb_checkpoints/
 dist/
 build/

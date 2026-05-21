@@ -1,3 +1,12 @@
+---
+title: GoblinGuardAi
+emoji: 👺
+colorFrom: green
+colorTo: red
+sdk: docker
+pinned: false
+---
+
 # 👺 GoblinGuardAi
 
 > Real-time LLM output auditor for reward-hacking tics and style leakage

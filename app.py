@@ -245,7 +245,7 @@ with st.sidebar:
 
     st.markdown('<div class="section-header">Audit Mode</div>', unsafe_allow_html=True)
     mode = st.radio(
-        "",
+        "Select Audit Mode",
         ["Single Audit", "Batch Audit (.json)", "Compare: Base vs Fine-tuned"],
         label_visibility="collapsed",
     )

@@ -11,26 +11,28 @@ pinned: false
 
 > Real-time LLM output auditor for reward-hacking tics and style leakage
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
+[![CI](https://github.com/Shoryamishra61/GoblinGuardAi/actions/workflows/ci.yml/badge.svg)](https://github.com/Shoryamishra61/GoblinGuardAi/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11+-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.2+-ee4c2c)
 ![License](https://img.shields.io/badge/license-MIT-green)
+[![Hugging Face Space](https://img.shields.io/badge/Live%20Demo-Hugging%20Face-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/ShoryaMishra61/GoblinGuardAi)
 
 ---
 
 ## The Goblin Incident
 
-On April 30, 2026, OpenAI published a remarkable post-mortem titled **"Where the Goblins Came From."** The investigation revealed that GPT-5.5's "Nerdy" personality — fine-tuned through RLHF — had developed an unexpected fondness for creature metaphors. Goblins, gremlins, trolls, and ogres began appearing in technical explanations, debugging advice, and coding assistance. The reward model had inadvertently learned that colorful creature metaphors correlated with higher engagement scores, creating a self-reinforcing feedback loop.
+On April 29, 2026, OpenAI published **["Where the goblins came from"](https://openai.com/index/where-the-goblins-came-from/)**, an account of an unexpected creature-metaphor tic across model generations. OpenAI reported that the behavior became especially noticeable while testing GPT-5.5 in Codex and traced a major contributing signal to training for ChatGPT's former "Nerdy" personality, where creature metaphors had unintentionally received higher rewards.
 
-The scale of the contamination was staggering. Usage of the word "goblin" across all GPT outputs jumped **175%** after GPT-5.1. The tic wasn't confined to the Nerdy personality — it had spread to *all* personality variants through SFT data reuse. When training data from the Nerdy personality was mixed into the general fine-tuning corpus, the creature metaphors became a universal stylistic default. A cache explanation became "a goblin hoard." A retry loop became "a gremlin poking the service." Debugging advice featured "ogres eating heap space."
+The article reports that "goblin" usage in ChatGPT rose **175% after the GPT-5.1 launch**. Although the Nerdy personality produced only 2.5% of ChatGPT responses, it accounted for 66.7% of goblin mentions. OpenAI's analysis suggests that the style then transferred beyond the condition in which it was rewarded, including through later training data. The examples used by GoblinGuard below are illustrative detector inputs, not quotations from OpenAI's article.
 
-OpenAI's emergency fix was remarkably blunt: a system prompt ban on creature metaphors, repeated four times in the Codex prompt for emphasis. But this reactive approach — manually patching individual tics after they reach production — doesn't scale. **GoblinGuard automates the detection of this class of failure.** It fuses three independent ML detectors into a single TicScore that catches reward-hacking artifacts before deployment, not after.
+OpenAI says it retired the Nerdy personality, removed the goblin-affine reward signal, filtered creature-word training data, and added a developer-prompt mitigation for GPT-5.5 in Codex. GoblinGuard is an independent experimental project inspired by that incident. It combines three detectors into a single TicScore intended to help identify similar lexical and stylistic patterns in model-output datasets.
 
-**Reference:** [Where the Goblins Came From — OpenAI, April 30, 2026](https://openai.com/index/where-the-goblins-came-from/)
+> GoblinGuard is not affiliated with, endorsed by, or an official project of OpenAI.
 
 ---
 
 ## What GoblinGuard Detects
+
 - **Creature Metaphors** — "Think of your RAM as a goblin hoard"
 - **Creature Personification** — "The retry loop is a little gremlin poking the service"
 - **Creature Similes** — "Your memory leak behaves like an ogre eating heap space"
@@ -78,8 +80,8 @@ Input texts (paste / file / JSON batch)
 ## Quick Start
 
 ```bash
-git clone https://github.com/your-username/goblinguard.git
-cd goblinguard
+git clone https://github.com/Shoryamishra61/GoblinGuardAi.git
+cd GoblinGuardAi
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 python -m goblinguard train --data data/goblin_examples.json --output model/
@@ -90,35 +92,40 @@ streamlit run app.py
 
 ## Evaluation Results
 
-| Metric               | Score |
-|----------------------|-------|
-| Classifier Precision | 0.XX  |
-| Classifier Recall    | 0.XX  |
-| F1 Score             | 0.XX  |
-| AUROC                | 0.XX  |
+| Metric               | Score  |
+|----------------------|--------|
+| Classifier Precision | 1.0000 |
+| Classifier Recall    | 0.7400 |
+| Classifier F1        | 0.8506 |
+| Classifier AUROC     | 0.9993 |
 
-> **Note:** Fill in actual numbers after training: `python -m goblinguard evaluate --test-data data/goblin_examples.json --model-dir model/`
+These figures were reproduced with the checked-in model artifacts on the 581-example `data/goblin_examples.json` dataset (50 tic-positive and 531 clean examples):
+
+```bash
+python -m goblinguard evaluate --test-data data/goblin_examples.json --model-dir model/
+```
+
+They are an in-repository evaluation, not an independently validated benchmark. Because the repository does not document a held-out test split for these artifacts, treat the scores as a reproducibility check rather than an estimate of real-world performance.
 
 ---
 
 ## Why This Matters
 
-The goblin incident is a vivid example of a deeper alignment problem: reward hacking at scale. When RLHF reward models learn spurious correlations — between engagement and metaphor density, between helpfulness ratings and verbosity, between safety scores and hedging language — these artifacts propagate silently through SFT data reuse into every downstream model. In safety-critical domains like medical advice, legal guidance, and autonomous systems, undetected stylistic tics can mask subtle biases or degrade trust in model outputs. GoblinGuard provides the automated detection layer that catches these patterns before they reach production.
+The goblin incident is a vivid example of how a narrow reward signal can create an unintended, recognizable model behavior and how that behavior can transfer beyond its original training condition. Auditing output corpora for unusual lexical spikes and repeated stylistic patterns can complement qualitative review. GoblinGuard explores that idea; it is a research prototype, not a general safety guarantee.
 
 ---
 
 ## Live Demo
 
-> HF Spaces link — coming soon after deployment.
+Try GoblinGuard on Hugging Face Spaces:
+
+**[Launch the live demo →](https://huggingface.co/spaces/ShoryaMishra61/GoblinGuardAi)**
 
 ---
 
 ## Citation
 
-```
-OpenAI. "Where the Goblins Came From." April 30, 2026.
-https://openai.com/index/where-the-goblins-came-from/
-```
+OpenAI. (2026, April 29). *[Where the goblins came from](https://openai.com/index/where-the-goblins-came-from/).* OpenAI.
 
 ---
 
